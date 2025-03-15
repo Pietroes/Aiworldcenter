@@ -1,19 +1,20 @@
-/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
-/* Base styles */
+/* Base Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+  /* Sfondo principale a gradienti chiaro */
+  background: linear-gradient(135deg, #ffffff, #f6f7f8);
   color: #333;
 }
 
 /* Header & Navigation */
 header.gradient-header {
-  background: linear-gradient(45deg, #7b2ff7, #f107a3);
+  background: linear-gradient(135deg, #6A82FB, #FC5C7D);
   color: #fff;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -32,11 +33,12 @@ nav.nav-bar ul.nav-list li {
 nav.nav-bar ul.nav-list li a.nav-link {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 nav.nav-bar ul.nav-list li a.nav-link:hover {
-  text-decoration: underline;
+  color: #FFDE59;
 }
 
 /* Main Content */
@@ -44,25 +46,37 @@ main.content-container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
 /* Rounded Sections */
 .rounded-section {
-  background: #f9f9f9;
-  border-radius: 12px;
-  padding: 1rem;
+  background: linear-gradient(135deg, #ffffff, #fdfdfd);
+  border-radius: 20px;
+  padding: 1.5rem;
   margin: 1.5rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Titoli incorniciati in box a gradiente */
+h1, h2 {
+  font-weight: 700;
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #6A82FB, #FC5C7D);
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer.gradient-footer {
+  background: linear-gradient(135deg, #FC5C7D, #6A82FB);
   text-align: center;
   padding: 1rem 0;
-  background: linear-gradient(45deg, #f107a3, #7b2ff7);
   color: #fff;
   margin-top: 2rem;
 }
