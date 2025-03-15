@@ -16,7 +16,8 @@ header.gradient-header {
   color: #fff;
   padding: 1.5rem 0;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Ombra aumentata */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 nav.nav-bar ul.nav-list {
@@ -47,7 +48,8 @@ main.content-container {
   margin: 2rem auto;
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /* Ombra aumentata per risaltare il contenitore */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
 
@@ -57,7 +59,8 @@ main.content-container {
   border-radius: 20px;
   padding: 1.5rem;
   margin: 1.5rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  /* Ombra più marcata per evidenziare le sezioni */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
 }
 
 /* Titoli incorniciati in box a gradiente */
@@ -69,7 +72,8 @@ h1, h2 {
   color: #fff;
   display: inline-block;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Ombra aumentata per i titoli */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */
@@ -79,4 +83,6 @@ footer.gradient-footer {
   padding: 1rem 0;
   color: #fff;
   margin-top: 2rem;
+  /* Ombra aumentata nel footer */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
